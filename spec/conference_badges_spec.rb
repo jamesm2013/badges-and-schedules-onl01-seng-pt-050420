@@ -13,7 +13,9 @@ end
       #puts "Hello, my name is #{name}."
  end
  
- 
+ badge_messages
+end
+
 # This funny looking <<-TEXT thing is called heredoc. It's a multi-line string
 # delimiter that makes it really easy for us to write multi-line strings in the
 # middle of code. The TEXT part is arbitrary too.
