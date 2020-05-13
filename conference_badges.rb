@@ -33,4 +33,3 @@ def printer(names_array)
     puts print_rooms[i]
     i += 1
   end
-endite your code here.
