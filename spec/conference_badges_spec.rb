@@ -1,20 +1,5 @@
 require 'spec_helper'
 
-describe 'conference_badges' do
-
-def badge_maker(name)
-  "Hello, my name is #{name}."
-end
-  
- def batch_badge_creator(names)
-	badge_messages = []
-	names.each do |name|
-   		badge_messages.push("Hello, my name is #{name}.")
-      #puts "Hello, my name is #{name}."
- end
- 
- badge_messages
-end
 
 # This funny looking <<-TEXT thing is called heredoc. It's a multi-line string
 # delimiter that makes it really easy for us to write multi-line strings in the
