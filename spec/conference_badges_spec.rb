@@ -2,7 +2,10 @@ require 'spec_helper'
 
 describe 'conference_badges' do
 
-
+def badge_maker(name)
+  "Hello, my name is #{name}."
+end
+  
   let(:room_assignments) {[
                             "Hello, Edsger! You'll be assigned to room 1!",
                             "Hello, Ada! You'll be assigned to room 2!",
