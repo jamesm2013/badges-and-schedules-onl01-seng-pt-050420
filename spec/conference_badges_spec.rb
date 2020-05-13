@@ -12,6 +12,8 @@ end
    		badge_messages.push("Hello, my name is #{name}.")
       #puts "Hello, my name is #{name}."
  end
+ 
+ 
 # This funny looking <<-TEXT thing is called heredoc. It's a multi-line string
 # delimiter that makes it really easy for us to write multi-line strings in the
 # middle of code. The TEXT part is arbitrary too.
