@@ -6,15 +6,7 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
   
-  let(:room_assignments) {[
-                            "Hello, Edsger! You'll be assigned to room 1!",
-                            "Hello, Ada! You'll be assigned to room 2!",
-                            "Hello, Charles! You'll be assigned to room 3!",
-                            "Hello, Alan! You'll be assigned to room 4!",
-                            "Hello, Grace! You'll be assigned to room 5!",
-                            "Hello, Linus! You'll be assigned to room 6!",
-                            "Hello, Matz! You'll be assigned to room 7!"
-                         ]}
+ 
 
 # This funny looking <<-TEXT thing is called heredoc. It's a multi-line string
 # delimiter that makes it really easy for us to write multi-line strings in the
