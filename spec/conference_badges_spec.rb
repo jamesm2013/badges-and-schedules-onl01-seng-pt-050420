@@ -1,6 +1,18 @@
 require 'spec_helper'
 
+escribe 'conference_badges' do
 
+  let(:name) {"Arel"}
+  let(:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
+  let(:badges) {[
+                  "Hello, my name is Edsger.",
+                  "Hello, my name is Ada.",
+                  "Hello, my name is Charles.",
+                  "Hello, my name is Alan.",
+                  "Hello, my name is Grace.",
+                  "Hello, my name is Linus.",
+                  "Hello, my name is Matz."
+               ]}
 
 # This funny looking <<-TEXT thing is called heredoc. It's a multi-line string
 # delimiter that makes it really easy for us to write multi-line strings in the
